@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+.navbar{
+    height: 40px;
+    background-color: #1E26E3;
+    display: flex;
+    justify-content: center;
+    
+}
+.navContainer{
+    width: 100%;
+    max-width: 1300px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family: "Imprima";
+    font-size: larger;
+
+}
+.logo{
+    font-family: 'Imprima', sans-serif;
+    font-size: 30px;
+}
+
+.navButton{
+    margin-left:10px ;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #1E26E3;
+    border-radius: 20px;
+}
